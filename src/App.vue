@@ -13,26 +13,22 @@ interface CropBox {
 }
 
 const startCrop =(e:MouseEvent)=> {
-// const rect = containerRef.value!.getBoundingClientRect()
+const rect = containerRef.value!.getBoundingClientRect()
 
-// const x = e.clientX - rect.left ;
-// const y = e.clientY - rect.top;
+const x = e.clientX - rect.left ;
+const y = e.clientY - rect.top;
 
-// cropBox = {
-//   x:x,
-//   y:y,
-//   width:0,
-//   height:0
-// }
-
-console.log('joijioioj');
-
+cropBox = {
+  x:x,
+  y:y,
+  width:0,
+  height:0
+}
 
 }
 
 const moveCrop=()=> {
   console.log('wedwqe');
-  
 }
 
 
